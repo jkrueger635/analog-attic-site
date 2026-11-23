@@ -1,0 +1,5 @@
+# Old WordPress sitemap URLs -> new sitemap. The old site had a single page (/), so nothing else to redirect.
+/sitemap_index.xml /sitemap-index.xml 301
+/sitemap.xml /sitemap-index.xml 301
+/wp-sitemap.xml /sitemap-index.xml 301
+/sitemap-post-type-page.xml /sitemap-index.xml 301
