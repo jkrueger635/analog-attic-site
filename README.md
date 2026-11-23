@@ -9,3 +9,5 @@ One-page static site (Astro) for Cloudflare Pages. Migrated from WordPress/Brick
 - Page: `src/pages/index.astro`; details (title, description, Instagram, Google Analytics ID): `src/data/site.js`.
 - Contact form and Instagram feed are Elfsight embeds (edit them in the Elfsight dashboard). The embed code is in `index.astro`.
 - MP3s live in `public/audio/` (native `<audio>` players). Convert new photos with `scripts/optimize_images.py`.
+
+Deploys: pushing to `main` builds on Cloudflare Pages (project `analog-attic`), live at analogattic.com.
